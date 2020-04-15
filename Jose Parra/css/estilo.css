@@ -1,0 +1,526 @@
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    .full {
+      background: url(../img/fondo.jpg) no-repeat top;
+      background-size: cover;
+      min-height: 860px;
+    }
+    
+    .full h1 {
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 37px;
+      letter-spacing: 1pt;
+      text-align: center;
+      margin-top: 38%;
+    }
+    
+    .full p {
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      letter-spacing: 1pt;
+      text-align: center;
+    }
+    
+    .navbar-brand img {
+      width: 179px;
+      height: 52px;
+      display: block;
+    }
+    
+    .navbar {
+      background-color: rgba(61, 165, 153, 0.6);
+    }
+    
+    nav img {
+      width: 97px;
+      height: 53px;
+      display: block;
+    }
+    
+    .nav-link {
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 17px;
+      letter-spacing: 1pt;
+    }
+    
+    .nav-link:hover {
+      color: #205070;
+      font-family: 'DM Serif Display', serif;
+      font-size: 17px;
+      letter-spacing: 1pt;
+    }
+    
+    .gradiente {
+      height: 500px;
+      background-image: linear-gradient(45deg, #205070, #3DA599);
+      background-image: -webkit-linear-gradient(45deg, #205070, #3DA599);
+      background-image: -ms-linear-gradient(45deg, #205070, #3DA599);
+      background-image: -moz-linear-gradient(45deg, #205070, #3DA599);
+      background-image: -o-linear-gradient(45deg, #205070, #3DA599);
+      display: flex;
+      align-items: center;
+    }
+    
+    .icono img {
+      width: 62px;
+      height: 62px;
+    }
+    
+    .icono p {
+      font-family: 'DM Serif Display', serif;
+      color: white;
+      font-size: 13px;
+      margin-top: 7px;
+      letter-spacing: 1pt;
+    }
+    
+    .descripcion p {
+      color: white;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    
+    .titulos p {
+      margin-top: 60px;
+      margin-bottom: 100px;
+      color: #205070;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    
+    .titulos h1 {
+      color: #3DA599;
+      font-family: 'DM Serif Display', serif;
+      font-size: 37px;
+      letter-spacing: 1pt;
+      text-align: center;
+      margin-top: 218px;
+    }
+    
+    .carousel-caption h2 {
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      letter-spacing: 1pt;
+      text-align: center;
+    }
+    
+    .carousel-caption a {
+      color: white;
+    }
+    
+    .carousel-caption a:hover {
+      color: #3DA599;
+    }
+    
+    .card-body {
+      border: #3DA599 solid;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    h3 {
+      color: #3DA599;
+      font-family: 'DM Serif Display', serif;
+      font-size: 23px;
+      letter-spacing: 1pt;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .card-texto {
+      color: #205070;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    
+    .card-imagen {
+      width: 120px;
+      height: 120px;
+      display: block;
+      margin: auto;
+    }
+    
+    .boton-mas {
+      width: 150px;
+      display: block;
+      margin: auto;
+      color: #fff!important;
+      background-color: #205070;
+      border: none;
+    }
+    
+    .boton-mas:hover {
+      width: 150px;
+      display: block;
+      margin: auto;
+      background-color: #3DA599;
+      border: none;
+    }
+    
+    .pinos {
+      background: url(../img/pinos.png) no-repeat top;
+      background-size: cover;
+      min-height: 260px;
+      margin-top: 218px;
+      margin-bottom: 100px;
+    }
+    
+    .boton_eventos {
+      margin-top: 15% !important;
+      width: 150px;
+      color: #fff!important;
+      background-color: #205070;
+      border: none;
+    }
+    
+    .boton_eventos:hover {
+      width: 150px;
+      background-color: #3DA599;
+      border: none;
+    }
+    
+    .prox_eventos h1 {
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 37px;
+      letter-spacing: 1pt;
+      margin-top: 16%;
+    }
+    
+    .fecha h3 {
+      margin: auto 0 !important;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      text-align: center;
+      background-color: #3DA599;
+      height: 50px;
+    }
+    /*CONTACTO INICIO*/
+    
+    .contact-form {
+      background: #fff;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      width: 70%;
+    }
+    
+    .contact-form .form-control {
+      border-radius: 1rem;
+    }
+    
+    .contact-form form {
+      padding: 14%;
+    }
+    
+    .contact-form form .row {
+      margin-bottom: -7%;
+    }
+    
+    .contact-form h1 {
+      margin-bottom: 8%;
+      margin-top: -10%;
+      text-align: center;
+      color: #3DA599;
+      font-family: 'DM Serif Display', serif;
+      font-size: 37px;
+      letter-spacing: 1pt;
+    }
+    
+    .contact-form .btnContact {
+      width: 50%;
+      border: none;
+      border-radius: 1rem;
+      padding: 1.5%;
+      background: #205070;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .contact-form .btnContact:hover {
+      width: 50%;
+      border: none;
+      border-radius: 1rem;
+      padding: 1.5%;
+      background: #3DA599;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .btnContactSubmit {
+      width: 50%;
+      border-radius: 1rem;
+      padding: 1.5%;
+      color: #fff;
+      background-color: #3DA599;
+      border: none;
+      cursor: pointer;
+    }
+    /*FIN CONTACTO*/
+    
+    .rocas {
+      background: url(../img/rocas.png) no-repeat top;
+      background-size: cover;
+      min-height: 189px;
+      margin-top: 100px;
+    }
+    /*FOOTER*/
+    
+    .footer_fondo {
+      height: 200px;
+      background-image: linear-gradient(45deg, #205070, #3DA599);
+      background-image: -webkit-linear-gradient(45deg, #205070, #3DA599);
+      background-image: -ms-linear-gradient(45deg, #205070, #3DA599);
+      background-image: -moz-linear-gradient(45deg, #205070, #3DA599);
+      background-image: -o-linear-gradient(45deg, #205070, #3DA599);
+      display: flex;
+      align-items: center;
+    }
+    
+    .footer_contenido {
+      height: 200px;
+    }
+    
+    .footer_contenido li {
+      list-style-type: none;
+      display: inline;
+      padding-right: 15px;
+    }
+    
+    .footer_nombre .footer_link {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    
+    .footer_nombre {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    
+    .espacio {
+      margin-left: 60px;
+    }
+    
+    .footer_contenido img {
+      width: 180px;
+      height: 65px;
+      display: block;
+    }
+    
+    .footer_contenido p {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      align-self: end;
+      letter-spacing: 0.5pt;
+      text-align: right;
+    }
+    /*FIN FOOTER*/
+    /*EVENTOS_*/
+    
+    .full_eventos_ {
+      background: url(../img/chapuzon2.png) no-repeat center;
+      background-size: cover;
+      min-height: 334px;
+    }
+    
+    .info {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .info h1 {
+      text-align: left;
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 42px;
+      letter-spacing: 1pt;
+      margin-left: 40px;
+    }
+    
+    .eventos_ p {
+      text-align: right;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+      white-space: pre;
+    }
+    
+    .icono_eventos {
+      margin-left: 15px;
+    }
+    
+    .volver {
+      color: white !important;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      line-height: 28px;
+      margin-top: 30px !important;
+    }
+    
+    .iconos {
+      display: inline-flex;
+      float: right;
+      margin-top: 30px;
+    }
+    
+    .iconos i {
+      color: #205070;
+      font-size: 25px;
+      margin-left: 50px;
+    }
+    
+    .fecha {
+      display: inline-flex;
+    }
+    
+    .hora {
+      display: inline-flex;
+    }
+    
+    .entrada {
+      display: inline-flex;
+    }
+    
+    .recomendaciones h2 {
+      border-bottom: 2px solid;
+      color: #3DA599;
+      font-family: 'DM Serif Display', serif;
+      font-size: 16pt;
+      text-align: center;
+      letter-spacing: 3pt;
+      margin-bottom: 30px;
+    }
+    
+    .parrafo p {
+      color: #205070;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    
+    .parrafo {
+      margin: 112px auto;
+    }
+    
+    .mapa {
+      position: relative;
+      padding-bottom: 30%;
+      /* 4:3 ratio*/
+      height: 0;
+    }
+    
+    .mapa iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+    /*CIERRE EVENTOS_*/
+    /* INICIO EVENTOS*/
+    
+    .full_eventos {
+      background: url(../img/bailarina.png) no-repeat top;
+      background-size: cover;
+      min-height: 485px;
+      padding-top: 250px;
+    }
+    
+    .full_eventos h1 {
+      color: white;
+      font-family: 'DM Serif Display', serif;
+      font-size: 37px;
+      letter-spacing: 1pt;
+    }
+    
+    .full_eventos .fecha {
+      color: white;
+      font-family: 'montserrat', serif;
+      font-size: 18px;
+      letter-spacing: 1pt;
+    }
+    
+    .eventos_info {
+      height: 485px;
+    }
+    
+    .titulo_evento h1 {
+      color: #3DA599;
+      font-family: 'DM Serif Display', serif;
+      font-size: 37px;
+      letter-spacing: 1pt;
+      text-align: center;
+      margin-top: 150px;
+      margin-bottom: 70px;
+    }
+    
+    .eventos_info p {
+      text-align: left;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    
+    .ubicacion {
+      color: #205070;
+      text-align: justify;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    
+    .tarjeta-mas {
+      width: 150px;
+      margin: auto;
+      color: #fff!important;
+      background-color: #205070;
+      border: none;
+      float: right;
+    }
+    
+    .tarjeta-mas:hover {
+      width: 150px;
+      margin: auto;
+      background-color: #3DA599;
+      border: none;
+      float: right;
+    }
+    
+    .cultura {
+      float: right;
+    }
+    /*PUNTA_ARENAS*/
+    
+    .rocas2 {
+      background: url(../img/rocas2.png) no-repeat top;
+      background-size: cover;
+      min-height: 397px;
+      margin-top: 218px;
+    }
